@@ -30,7 +30,8 @@ def using_insert(arr, stg)
   arr.insert(4, stg)
 end
 
-def using_uniq
+def using_uniq(arr)
+  arr.uniq
 end
 
 def using_flatten
